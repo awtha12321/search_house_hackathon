@@ -1,0 +1,22 @@
+# Data output directory contents (keep the directory, ignore CSV files)
+data/*.csv
+
+# Environment file (contains API keys – never commit)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
