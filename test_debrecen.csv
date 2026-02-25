@@ -1,0 +1,51 @@
+id,price_huf,close_to_public_transportation,close_to_campus,size_m2,num_bedrooms,avg_util_cost_huf,furnished,transport_types,description
+5001,120000,True,"['Main Campus', 'Medical School']",45,1,25000,True,"['Tram', 'Bus']",Cozy renovated flat right next to the Main Building. Perfect for medical students who need quick access to the clinics. The windows face a quiet park.
+5002,95000,True,['Faculty of Engineering'],30,1,18000,True,['Bus'],Affordable studio near Ótemető street. Ideal for engineering students. Low utility costs due to new insulation. Small but very functional layout.
+5003,160000,True,"['Kassai Campus', 'Főnix Arena']",55,2,30000,True,"['Bus', 'Trolleybus']",Modern two-bedroom apartment near Kassai road. Great for CS and Law students sharing. Includes a large balcony and air conditioning.
+5004,200000,False,['Main Campus'],70,3,40000,True,[],"Spacious luxury apartment in the Nagyerdő area. A bit of a walk to the tram, but very peaceful. Huge living room, perfect for social gatherings."
+5005,110000,True,['Faculty of Music'],38,1,22000,False,['Tram'],Unfurnished classic civic apartment downtown. High ceilings and wooden floors. 2 minutes from the tram line 1 stop.
+5006,85000,True,['Faculty of Engineering'],25,1,15000,True,['Bus'],"Budget-friendly garzon for a single student. Located on Csapó street, easy bus access to Engineering faculty. Minimalist style."
+5007,135000,True,['Medical School'],50,1,28000,True,['Tram'],Sunny flat near the Clinics. Fully equipped kitchen with dishwasher. Tram line 1 stops right in front of the building.
+5008,180000,True,['Main Campus'],62,2,35000,True,"['Tram', 'Bus']","Newly built condominium complex. Gated community with security. Two separate bedrooms, ideal for roommates studying at the main university."
+5009,145000,True,['Kassai Campus'],48,1,26000,True,['Bus'],Stylish loft apartment near the swimming complex. Open concept design. Very close to the IT and Law buildings on Kassai.
+5010,100000,False,['Faculty of Engineering'],35,1,20000,True,[],"Quiet ground floor apartment in a garden suburb area. Best for someone with a bike or car, as the bus stop is a 10-minute walk."
+5011,250000,True,"['Main Campus', 'Medical School']",80,3,50000,True,['Tram'],"Huge premium apartment overlooking the University Church. Three bedrooms, two bathrooms. High-end furniture and dedicated study spaces."
+5012,115000,True,['Kassai Campus'],42,1,23000,True,['Trolleybus'],Nice flat on Bem tér. Direct trolley connection to Kassai campus. Surrounded by bakeries and cafes.
+5013,130000,True,['Main Campus'],53,2,29000,False,['Tram'],Unfurnished 2-room flat on Egyetem sugárút. You can bring your own furniture. Very classic atmosphere with large windows.
+5014,105000,True,"['Faculty of Music', 'Downtown']",40,1,21000,True,"['Tram', 'Bus']",Located in the heart of the city near the Forum mall. Noisy but vibrant location. Excellent transport links to everywhere.
+5015,90000,True,['Faculty of Engineering'],28,1,16000,True,['Bus'],Compact efficiency apartment. Cheap utilities and rent. Walking distance to the Engineering faculty library.
+5016,170000,True,['Medical School'],60,2,32000,True,['Tram'],Two-bedroom flat perfect for two med students. Located on Simonyi street. The tram stop is literally at the gate.
+5017,125000,True,['Main Campus'],46,1,24000,True,['Tram'],Renovated panel apartment. Very warm in winter (district heating). 5 minutes tram ride to the Main Building.
+5018,190000,True,['Kassai Campus'],68,2,38000,True,['Bus'],Modern penthouse-style top floor apartment. AC in every room. Huge terrace with a view of the stadium.
+5019,118000,True,['Downtown'],44,1,25000,True,"['Tram', 'Trolleybus']",Nice civic flat near Plaza. Good for students who want to be near the city center nightlife but study at Kassai.
+5020,210000,True,['Main Campus'],72,3,42000,True,['Tram'],Three bedroom student hostel style apartment. Each room has its own lock. Shared large kitchen and living area.
+5021,98000,True,['Faculty of Engineering'],32,1,19000,True,['Bus'],"Simple, clean flat on Faraktár street. Direct bus to the Engineering faculty. Grocery store is downstairs."
+5022,140000,True,['Medical School'],52,1,27000,True,['Tram'],Bright and airy apartment on Nagyerdei körút. You can jog in the forest every morning. Very quiet and focused environment.
+5023,155000,True,['Kassai Campus'],58,2,31000,True,['Bus'],Newly renovated 2-bedroom in a brick building. Quiet courtyard view. 10 minute walk to the Campus.
+5024,128000,True,['Main Campus'],49,1,26000,True,['Tram'],One bedroom plus a half room for storage or guests. Located on Füredi street. Easy tram access to university.
+5025,300000,True,['Main Campus'],95,4,60000,True,['Tram'],"Massive 4-bedroom apartment for a group of friends. High-end finishings, two bathrooms, huge American kitchen."
+5026,112000,True,['Faculty of Music'],41,1,22000,True,['Tram'],"Artist friendly flat downtown. High ceilings, good natural light. Close to the theater and music faculty."
+5027,132000,True,['Kassai Campus'],50,1,28000,True,['Bus'],"Comfortable flat near the sports pool. Ground floor, easy access. Includes a dedicated parking spot."
+5028,175000,True,['Medical School'],65,2,34000,True,['Tram'],Two large bedrooms with king size beds. On the tram line. Includes weekly cleaning service in the price.
+5029,148000,True,['Main Campus'],55,1,29000,True,['Tram'],"Super modern aesthetic. LED lighting, smart home features. Located right behind the Main Building."
+5030,92000,True,['Faculty of Engineering'],29,1,17000,True,['Bus'],Small but cozy garzon. Low overhead costs. Friendly landlord who speaks English.
+5031,165000,True,['Kassai Campus'],56,2,30000,True,['Trolleybus'],Spacious flat on Kassai road. Soundproof windows so the traffic noise isn't an issue. Big wardrobes.
+5032,122000,True,['Main Campus'],47,1,24000,True,['Tram'],Retro style apartment but very clean. Located in the 'U' building shape near the uni. Good community.
+5033,185000,True,['Medical School'],64,2,36000,True,['Tram'],Luxury apartment near the clinics. Modern kitchen appliances. Perfect for international students.
+5034,138000,True,['Downtown'],51,1,27000,True,['Tram'],Located on Piac street. Steps away from everything. The windows face the inner yard so it is surprisingly quiet.
+5035,108000,False,['Faculty of Engineering'],36,1,21000,True,[],"Nice flat in a quiet street off Ótemető. No direct bus in front, but a 5 minute walk. Very safe neighborhood."
+5036,195000,True,['Main Campus'],69,2,39000,True,['Tram'],Premium 2-bedroom in the new residential park. Gym and sauna in the building for residents.
+5037,116000,True,['Kassai Campus'],43,1,23000,True,['Bus'],Standard student flat. Desk and chair provided. Reliable internet included in the rent.
+5038,152000,True,['Medical School'],57,2,30000,True,['Tram'],"Nice layout with separate rooms. Ideal for privacy. Located on the boulevard, very central."
+5039,126000,True,['Main Campus'],48,1,25000,True,['Tram'],Cozy attic apartment. Skylights make it very bright. AC installed for the summer heat.
+5040,178000,True,['Main Campus'],63,2,33000,True,"['Tram', 'Bus']","Pet friendly apartment! If you have a small dog or cat, this is perfect. Near the Great Forest for walks."
+5041,142000,True,['Kassai Campus'],54,1,28000,True,['Bus'],"Renovated brick apartment. Very thick walls, totally silent. Great for studying. Close to Főnix."
+5042,99000,True,['Faculty of Engineering'],33,1,18000,True,['Bus'],Cheap and cheerful. Basic furniture but everything works. Close to Lidl and Penny Market.
+5043,162000,True,['Medical School'],61,2,31000,True,['Tram'],Spacious flat with a bathtub. Washing machine and dryer included. 5 mins to the Medical School.
+5044,136000,True,['Main Campus'],50,1,26000,True,['Tram'],Located in the 'French' building. Nice balcony. Very popular area for students.
+5045,220000,True,['Main Campus'],75,3,45000,True,['Tram'],Three bedroom flat perfect for Erasmus students. Fully equipped kitchen with dishwasher and microwave.
+5046,119000,True,['Kassai Campus'],45,1,24000,True,['Trolleybus'],Neat flat near Bem tér. Easy connection to both Kassai and Main campus via public transport.
+5047,188000,True,['Main Campus'],66,2,37000,True,['Tram'],Designer apartment. Very stylish furniture. Open kitchen living room area. Great for hosting dinners.
+5048,146000,True,['Medical School'],53,1,29000,True,['Tram'],Ground floor apartment with direct garden access. Rare find in the city. Very relaxing atmosphere.
+5049,130000,True,['Faculty of Engineering'],49,1,26000,True,['Bus'],"Renovated panel flat. LED lights, new flooring. Very clean and tidy."
+5050,158000,True,['Main Campus'],59,2,32000,True,"['Tram', 'Bus']",Two bedroom flat on Bolyai street. Super close to the uni. You can literally roll out of bed into class.

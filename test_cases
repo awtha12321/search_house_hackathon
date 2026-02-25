@@ -1,0 +1,255 @@
+NOTE: something is wrong. llm-answer has to provide the id of the house 
+
+
+search_db 
+{
+  "results": [
+    {
+      "id": 5008,
+      "payload": {
+        "avg_util_cost_huf": 35000,
+        "close_to_campus": [
+          "Main Campus"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Newly built condominium complex. Gated community with security. Two separate bedrooms, ideal for roommates studying at the main university.",
+        "furnished": true,
+        "id": 5008,
+        "num_bedrooms": 2,
+        "price_huf": 180000,
+        "size_m2": 62,
+        "transport_types": [
+          "Tram",
+          "Bus"
+        ]
+      },
+      "score": 0.64707613
+    },
+    {
+      "id": 5013,
+      "payload": {
+        "avg_util_cost_huf": 29000,
+        "close_to_campus": [
+          "Main Campus"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Unfurnished 2-room flat on Egyetem sugárút. You can bring your own furniture. Very classic atmosphere with large windows.",
+        "furnished": false,
+        "id": 5013,
+        "num_bedrooms": 2,
+        "price_huf": 130000,
+        "size_m2": 53,
+        "transport_types": [
+          "Tram"
+        ]
+      },
+      "score": 0.62415975
+    },
+    {
+      "id": 5003,
+      "payload": {
+        "avg_util_cost_huf": 30000,
+        "close_to_campus": [
+          "Kassai Campus",
+          "Főnix Arena"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Modern two-bedroom apartment near Kassai road. Great for CS and Law students sharing. Includes a large balcony and air conditioning.",
+        "furnished": true,
+        "id": 5003,
+        "num_bedrooms": 2,
+        "price_huf": 160000,
+        "size_m2": 55,
+        "transport_types": [
+          "Bus",
+          "Trolleybus"
+        ]
+      },
+      "score": 0.6157174
+    },
+    {
+      "id": 5038,
+      "payload": {
+        "avg_util_cost_huf": 30000,
+        "close_to_campus": [
+          "Medical School"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Nice layout with separate rooms. Ideal for privacy. Located on the boulevard, very central.",
+        "furnished": true,
+        "id": 5038,
+        "num_bedrooms": 2,
+        "price_huf": 152000,
+        "size_m2": 57,
+        "transport_types": [
+          "Tram"
+        ]
+      },
+      "score": 0.61395305
+    },
+    {
+      "id": 5040,
+      "payload": {
+        "avg_util_cost_huf": 33000,
+        "close_to_campus": [
+          "Main Campus"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Pet friendly apartment! If you have a small dog or cat, this is perfect. Near the Great Forest for walks.",
+        "furnished": true,
+        "id": 5040,
+        "num_bedrooms": 2,
+        "price_huf": 178000,
+        "size_m2": 63,
+        "transport_types": [
+          "Tram",
+          "Bus"
+        ]
+      },
+      "score": 0.59128654
+    }
+  ]
+}
+
+llm-answer 
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Hello! I'd be happy to help you find a suitable flat for your second year of General Medicine.\n\nBased on your requirements, here are my top 3 recommendations:\n\n1. **Match Score: 0.65**\nPrice: 180000 HUF | Bedrooms: 2 | Size: 62 m² | Campus: Main Campus | Transport: Tram, Bus | Furnished: True\nDescription: Newly built condominium complex. Gated community with security. Two separate bedrooms, ideal for roommates studying at the main university.\n\nThis flat matches your needs perfectly! It's located on the Main Campus, close to the Clinics, and has a tram stop nearby. The fact that it's furnished is also a bonus. With its gated community and security, you can feel safe and secure while studying.\n\n2. **Match Score: 0.62**\nPrice: 160000 HUF | Bedrooms: 2 | Size: 55 m² | Campus: Kassai Campus, Főnix Arena | Transport: Bus, Trolleybus | Furnished: True\nDescription: Modern two-bedroom apartment near Kassai road. Great for CS and Law students sharing. Includes a large balcony and air conditioning.\n\nAlthough this flat is not directly on the Main Campus, it's still relatively close to the Clinics via bus or trolleybus. The modern design and large balcony make it an attractive option, especially since it's furnished.\n\n3. **Match Score: 0.59**\nPrice: 178000 HUF | Bedrooms: 2 | Size: 63 m² | Campus: Main Campus | Transport: Tram, Bus | Furnished: True\nDescription: Pet friendly apartment! If you have a small dog or cat, this is perfect. Near the Great Forest for walks.\n\nThis flat is also located on the Main Campus and has a tram stop nearby. However, it's slightly more expensive than your budget. The pet-friendly feature might be a bonus if you have a furry friend!\n\nAll three options meet your requirements, but I recommend considering the first one due to its proximity to the Clinics and gated community security.\n\nLet me know if you'd like to schedule a viewing or need further assistance!",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1769957528,
+  "id": "chatcmpl-724",
+  "model": "llama3.2:3b",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_ollama",
+  "usage": {
+    "completion_tokens": 454,
+    "prompt_tokens": 545,
+    "total_tokens": 999
+  }
+}
+
+finalization 
+{
+  "all_results": [
+    {
+      "id": 5008,
+      "payload": {
+        "avg_util_cost_huf": 35000,
+        "close_to_campus": [
+          "Main Campus"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Newly built condominium complex. Gated community with security. Two separate bedrooms, ideal for roommates studying at the main university.",
+        "furnished": true,
+        "id": 5008,
+        "num_bedrooms": 2,
+        "price_huf": 180000,
+        "size_m2": 62,
+        "transport_types": [
+          "Tram",
+          "Bus"
+        ]
+      },
+      "score": 0.64707613
+    },
+    {
+      "id": 5013,
+      "payload": {
+        "avg_util_cost_huf": 29000,
+        "close_to_campus": [
+          "Main Campus"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Unfurnished 2-room flat on Egyetem sugárút. You can bring your own furniture. Very classic atmosphere with large windows.",
+        "furnished": false,
+        "id": 5013,
+        "num_bedrooms": 2,
+        "price_huf": 130000,
+        "size_m2": 53,
+        "transport_types": [
+          "Tram"
+        ]
+      },
+      "score": 0.62415975
+    },
+    {
+      "id": 5003,
+      "payload": {
+        "avg_util_cost_huf": 30000,
+        "close_to_campus": [
+          "Kassai Campus",
+          "Főnix Arena"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Modern two-bedroom apartment near Kassai road. Great for CS and Law students sharing. Includes a large balcony and air conditioning.",
+        "furnished": true,
+        "id": 5003,
+        "num_bedrooms": 2,
+        "price_huf": 160000,
+        "size_m2": 55,
+        "transport_types": [
+          "Bus",
+          "Trolleybus"
+        ]
+      },
+      "score": 0.6157174
+    },
+    {
+      "id": 5038,
+      "payload": {
+        "avg_util_cost_huf": 30000,
+        "close_to_campus": [
+          "Medical School"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Nice layout with separate rooms. Ideal for privacy. Located on the boulevard, very central.",
+        "furnished": true,
+        "id": 5038,
+        "num_bedrooms": 2,
+        "price_huf": 152000,
+        "size_m2": 57,
+        "transport_types": [
+          "Tram"
+        ]
+      },
+      "score": 0.61395305
+    },
+    {
+      "id": 5040,
+      "payload": {
+        "avg_util_cost_huf": 33000,
+        "close_to_campus": [
+          "Main Campus"
+        ],
+        "close_to_public_transportation": true,
+        "description": "Pet friendly apartment! If you have a small dog or cat, this is perfect. Near the Great Forest for walks.",
+        "furnished": true,
+        "id": 5040,
+        "num_bedrooms": 2,
+        "price_huf": 178000,
+        "size_m2": 63,
+        "transport_types": [
+          "Tram",
+          "Bus"
+        ]
+      },
+      "score": 0.59128654
+    }
+  ],
+  "answer": "Hello! I'd be happy to help you find a suitable flat for your second year of General Medicine.\n\nBased on your requirements, here are my top 3 recommendations:\n\n1. **Match Score: 0.65**\nPrice: 180000 HUF | Bedrooms: 2 | Size: 62 m² | Campus: Main Campus | Transport: Tram, Bus | Furnished: True\nDescription: Newly built condominium complex. Gated community with security. Two separate bedrooms, ideal for roommates studying at the main university.\n\nThis flat matches your needs perfectly! It's located on the Main Campus, close to the Clinics, and has a tram stop nearby. The fact that it's furnished is also a bonus. With its gated community and security, you can feel safe and secure while studying.\n\n2. **Match Score: 0.62**\nPrice: 160000 HUF | Bedrooms: 2 | Size: 55 m² | Campus: Kassai Campus, Főnix Arena | Transport: Bus, Trolleybus | Furnished: True\nDescription: Modern two-bedroom apartment near Kassai road. Great for CS and Law students sharing. Includes a large balcony and air conditioning.\n\nAlthough this flat is not directly on the Main Campus, it's still relatively close to the Clinics via bus or trolleybus. The modern design and large balcony make it an attractive option, especially since it's furnished.\n\n3. **Match Score: 0.59**\nPrice: 178000 HUF | Bedrooms: 2 | Size: 63 m² | Campus: Main Campus | Transport: Tram, Bus | Furnished: True\nDescription: Pet friendly apartment! If you have a small dog or cat, this is perfect. Near the Great Forest for walks.\n\nThis flat is also located on the Main Campus and has a tram stop nearby. However, it's slightly more expensive than your budget. The pet-friendly feature might be a bonus if you have a furry friend!\n\nAll three options meet your requirements, but I recommend considering the first one due to its proximity to the Clinics and gated community security.\n\nLet me know if you'd like to schedule a viewing or need further assistance!",
+  "num_matches": 5,
+  "used_house_ids": [
+    "5008",
+    "5013",
+    "5003",
+    "5038",
+    "5040"
+  ]
+}

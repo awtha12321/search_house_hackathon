@@ -1,0 +1,71 @@
+
+
+[Match Score: 0.547] **Apartment ID: 1020**
+Price: 85000 HUF | Utilities: 15000 HUF | Bedrooms: 1 | Size: 28 m² | Furnished: True | Near Transport: True | Campus: Faculty of Engineering | Transport Types: Bus | Description: Tiny but functional mini studio for a student on a strict budget. Includes a gallery bed to save space and a small kitchenette. Located very close to the engineering faculty entrance.
+
+[Match Score: 0.542] **Apartment ID: 1012**
+Price: 125000 HUF | Utilities: 30000 HUF | Bedrooms: 2 | Size: 48 m² | Furnished: True | Near Transport: False | Campus: Faculty of Engineering | Transport Types: Bus | Description: Quiet garden access apartment perfect for students with a small pet or who like to sit outside. It is a bit further from the center but very peaceful and private. The kitchen was recently refurbished.
+
+[Match Score: 0.527] **Apartment ID: 5015**
+Price: 90000 HUF | Utilities: 16000 HUF | Bedrooms: 1 | Size: 28 m² | Furnished: True | Near Transport: True | Campus: Faculty of Engineering | Transport Types: Bus | Description: Compact efficiency apartment. Cheap utilities and rent. Walking distance to the Engineering faculty library.
+
+[Match Score: 0.524] **Apartment ID: 1037**
+Price: 92000 HUF | Utilities: 17000 HUF | Bedrooms: 1 | Size: 34 m² | Furnished: True | Near Transport: False | Campus: Faculty of Engineering | Transport Types: Bus | Description: Older style apartment that has been well cared for. Furniture is retro but comfortable. Extremely affordable option for a single engineering student.
+
+[Match Score: 0.515] **Apartment ID: 5030**
+Price: 92000 HUF | Utilities: 17000 HUF | Bedrooms: 1 | Size: 29 m² | Furnished: True | Near Transport: True | Campus: Faculty of Engineering | Transport Types: Bus | Description: Small but cozy garzon. Low overhead costs. Friendly landlord who speaks English.
+
+[Match Score: 0.514] **Apartment ID: 1004**
+Price: 95000 HUF | Utilities: 20000 HUF | Bedrooms: 1 | Size: 40 m² | Furnished: True | Near Transport: False | Campus: Faculty of Engineering | Transport Types: Bus | Description: Affordable ground floor apartment in a quiet residential street near the engineering faculty. It is simple and modest but has everything a student needs including a renovated bathroom and sturdy furniture.
+
+[Match Score: 0.501] **Apartment ID: 5002**
+Price: 95000 HUF | Utilities: 18000 HUF | Bedrooms: 1 | Size: 30 m² | Furnished: True | Near Transport: True | Campus: Faculty of Engineering | Transport Types: Bus | Description: Affordable studio near Ótemető street. Ideal for engineering students. Low utility costs due to new insulation. Small but very functional layout.
+
+[Match Score: 0.479] **Apartment ID: 5010**
+Price: 100000 HUF | Utilities: 20000 HUF | Bedrooms: 1 | Size: 35 m² | Furnished: True | Near Transport: False | Campus: Faculty of Engineering | Transport Types:  | Description: Quiet ground floor apartment in a garden suburb area. Best for someone with a bike or car, as the bus stop is a 10-minute walk.
+
+[Match Score: 0.450] **Apartment ID: 5035**
+Price: 108000 HUF | Utilities: 21000 HUF | Bedrooms: 1 | Size: 36 m² | Furnished: True | Near Transport: False | Campus: Faculty of Engineering | Transport Types:  | Description: Nice flat in a quiet street off Ótemető. No direct bus in front, but a 5 minute walk. Very safe neighborhood.
+
+[Match Score: 0.434] **Apartment ID: 1007**
+Price: 130000 HUF | Utilities: 28000 HUF | Bedrooms: 2 | Size: 50 m² | Furnished: True | Near Transport: True | Campus: Faculty of Economics | Transport Types: Bus | Description: Sunny flat located directly across from the economics faculty sports grounds. The area is very green and peaceful. The apartment features a large pantry and separate toilet and bathroom.
+
+Hello! i am civil engineering student coming to debrecen in this september. I have a budget around 100K for the rent, and for the utility, it has to be around 10K. I want a studio because i will be coming alone. if possible, i want to be around quiet neighbourhood. the location does not matter but if possible, being near the engineering campus would be nice.
+✅ Final combined result: {'search_query': 'quiet affordable compact', 'filters': {'price_huf': 100000, 'avg_util_cost_huf': 10000, 'furnished': None, 'size_m2': None, 'num_bedrooms': 1, 'close_to_public_transportation': None, 'transport_types': [], 'close_to_campus': ['Faculty of Engineering'], 'flexible_location': True}}
+
+
+------------------------------
+
+[Match Score: 0.685] **Apartment ID: 1025**
+Price: 130000 HUF | Utilities: 29000 HUF | Bedrooms: 2 | Size: 50 m² | Furnished: True | Near Transport: True | Campus: Medical School | Transport Types: Tram, Bus | Description: Practical student flat with easy to clean surfaces and tiled floors. Designed for hassle free living near the hospital. The landlord provides a cleaning service once a month included in the price.
+
+[Match Score: 0.660] **Apartment ID: 1035**
+Price: 125000 HUF | Utilities: 28000 HUF | Bedrooms: 2 | Size: 49 m² | Furnished: False | Near Transport: True | Campus: Medical School | Transport Types: Tram | Description: Empty apartment waiting for furniture. Great for long term tenants who have their own stuff. The location is prime for medical students right across from the theoretical building.
+
+[Match Score: 0.604] **Apartment ID: 1014**
+Price: 105000 HUF | Utilities: 22000 HUF | Bedrooms: 1 | Size: 38 m² | Furnished: True | Near Transport: True | Campus: Medical School | Transport Types: Bus | Description: Compact flat specifically designed for a solitary student. It is located in a quiet cul de sac behind the medical university. The owner speaks fluent English and is very helpful with international tenants.
+
+[Match Score: 0.580] **Apartment ID: 1005**
+Price: 145000 HUF | Utilities: 30000 HUF | Bedrooms: 2 | Size: 55 m² | Furnished: True | Near Transport: True | Campus: Medical School | Transport Types: Tram, Bus | Description: Modern apartment with air conditioning and a fully equipped kitchen. Located equidistant between the medical school and the main campus making it great for mixed student couples. The building has an elevator.
+
+[Match Score: 0.571] **Apartment ID: 1030**
+Price: 115000 HUF | Utilities: 25000 HUF | Bedrooms: 1 | Size: 44 m² | Furnished: True | Near Transport: True | Campus: Medical School | Transport Types: Bus | Description: Bright apartment with a south facing balcony that gets sun all day. Located in a quiet side street near the clinics. The kitchen is small but functional.
+
+[Match Score: 0.552] **Apartment ID: 5001**
+Price: 120000 HUF | Utilities: 25000 HUF | Bedrooms: 1 | Size: 45 m² | Furnished: True | Near Transport: True | Campus: Main Campus, Medical School | Transport Types: Tram, Bus | Description: Cozy renovated flat right next to the Main Building. Perfect for medical students who need quick access to the clinics. The windows face a quiet park.
+
+[Match Score: 0.550] **Apartment ID: 5038**
+Price: 152000 HUF | Utilities: 30000 HUF | Bedrooms: 2 | Size: 57 m² | Furnished: True | Near Transport: True | Campus: Medical School | Transport Types: Tram | Description: Nice layout with separate rooms. Ideal for privacy. Located on the boulevard, very central.
+
+[Match Score: 0.543] **Apartment ID: 1048**
+Price: 150000 HUF | Utilities: 33000 HUF | Bedrooms: 2 | Size: 59 m² | Furnished: True | Near Transport: True | Campus: Medical School | Transport Types: Tram | Description: Freshly painted apartment with new carpets. Very clean and hypoallergenic. Located near the tram stop that goes directly to the clinics.
+
+[Match Score: 0.509] **Apartment ID: 1001**
+Price: 160000 HUF | Utilities: 35000 HUF | Bedrooms: 2 | Size: 52 m² | Furnished: True | Near Transport: True | Campus: Main Campus, Medical School | Transport Types: Tram, Bus | Description: A bright and spacious apartment located right next to the Great Forest park. It is perfect for medical students who need a quiet environment to study but want to be close to the clinics. The living room has large windows facing the trees.
+
+[Match Score: 0.473] **Apartment ID: 5043**
+Price: 162000 HUF | Utilities: 31000 HUF | Bedrooms: 2 | Size: 61 m² | Furnished: True | Near Transport: True | Campus: Medical School | Transport Types: Tram | Description: Spacious flat with a bathtub. Washing machine and dryer included. 5 mins to the Medical School.
+
+
+Good morning! I will be coming to debrecen in this september. I will be studying dentistry, so I would like a house near the related campus to my major. My budget is around 150K. It has to be near the transportation, any type of transportation, cuz I am a social butterfly. For the house, I want a studio room if possible. since i am a dentistry student, i wanna be around quiet neighbourhood. I like to have access to garden as well or near some green area to relieve the stress. It has to be furnished.
+✅ Final combined result: {'search_query': 'quiet social garden furnished', 'filters': {'price_huf': 150000, 'avg_util_cost_huf': None, 'furnished': True, 'size_m2': None, 'num_bedrooms': 1, 'close_to_public_transportation': True, 'transport_types': [], 'close_to_campus': ['Medical School'], 'flexible_location': False}}
