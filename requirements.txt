@@ -1,0 +1,54 @@
+# Core
+pip>=24.0
+setuptools>=69.0
+wheel>=0.42.0
+
+# Common utilities
+python-dotenv>=1.0.1
+pydantic>=2.6.0
+PyYAML>=6.0.1
+loguru>=0.7.2
+tqdm>=4.66.1
+rich>=13.7.0
+tenacity>=8.2.3
+
+# HTTP / APIs
+requests>=2.31.0
+httpx>=0.26.0
+urllib3>=2.2.0
+
+# HTML parsing / scraping
+beautifulsoup4>=4.12.3
+lxml>=5.1.0
+selenium>=4.18.0
+playwright>=1.41.0
+
+# Data / numerics
+numpy>=1.26.4
+pandas>=2.2.0
+scipy>=1.12.0
+
+# ML (classic)
+scikit-learn>=1.4.0
+joblib>=1.3.2
+
+# Visualization
+matplotlib>=3.8.2
+seaborn>=0.13.2
+plotly>=5.18.0
+
+# Notebooks (optional but common)
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# Web apps / APIs (pick what you use, but included here)
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+flask>=3.0.2
+gunicorn>=21.2.0
+streamlit>=1.31.0
+
+# Testing / formatting (optional but useful)
+pytest>=8.0.0
+black>=24.1.0
+ruff>=0.2.1
