@@ -1,0 +1,55 @@
+# Scraper configuration for rental listing extraction
+# Edit this file to customise targets, fields, and output settings.
+
+scraper:
+  # List of target URLs to scrape (supports multiple sites)
+  target_urls:
+    - "https://www.irisrent.hu/kiado-lakas"
+
+  # Maximum number of listing pages to paginate through per site
+  max_pages: 10
+
+  # Delay in seconds between requests (be respectful)
+  request_delay: 2.0
+
+  # Retry configuration
+  max_retries: 3
+  retry_delay: 5.0
+
+  # Browser headless mode (set to false for debugging)
+  headless: true
+
+  # Timeout for page loads (seconds)
+  page_timeout: 30
+
+gemini:
+  # Model to use for AI extraction
+  # Options: gemini-1.5-flash, gemini-1.5-pro, gemini-pro
+  model: "gemini-1.5-flash"
+
+  # Maximum tokens for extraction prompt response
+  max_output_tokens: 2048
+
+extraction:
+  # Fields to extract from each listing
+  fields:
+    - title
+    - price
+    - location
+    - size_m2
+    - num_rooms
+    - amenities
+    - description
+    - image_urls
+    - contact_info
+    - listing_url
+
+output:
+  # Output directory (overridden by OUTPUT_DIR env variable if set)
+  directory: "./data"
+
+  # CSV file name (timestamp appended automatically)
+  filename: "rental_listings"
+
+  # CSV encoding (utf-8 supports Hungarian characters)
+  encoding: "utf-8"

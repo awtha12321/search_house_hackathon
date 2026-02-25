@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  scraper:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: rental_scraper
+    env_file:
+      - .env
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - OUTPUT_DIR=/data
+    volumes:
+      - ./data:/data
+      - ./scraper/config.yaml:/app/config.yaml:ro
+    # WSL2 compatibility: run as current user to avoid permission issues
+    user: "${UID:-1000}:${GID:-1000}"
+    # Override CMD to keep container alive for interactive use;
+    # remove the command line below to just run the scraper once and exit.
+    # command: ["python", "scraper.py"]
+    restart: "no"
